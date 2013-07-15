@@ -1,0 +1,34 @@
+---
+buzzwords: ! 'data: {"items":[{"label":"Management Fees","value":100},{"label":"Council
+  Tax","value":120},{"label":"EPC","value":80},{"label":"Cleaning","value":70}],"id":"buzzwords","updatedAt":1373920353}
+
+
+'
+valuation: ! 'data: {"current":97,"last":34,"id":"valuation","updatedAt":1373920353}
+
+
+'
+karma: ! 'data: {"current":121642,"last":98209,"id":"karma","updatedAt":1373920353}
+
+
+'
+synergy: ! 'data: {"value":20,"id":"synergy","updatedAt":1373920353}
+
+
+'
+gross_yield: ! 'data: {"current":5,"last":4.8,"id":"gross_yield","updatedAt":1373920353}
+
+
+'
+net_yield: ! 'data: {"current":4.6,"last":4.5,"id":"net_yield","updatedAt":1373920353}
+
+
+'
+rental_due: ! 'data: {"current":38,"last":7,"id":"rental_due","updatedAt":1373920353}
+
+
+'
+convergence: ! 'data: {"points":[{"x":1347621705,"y":1255},{"x":1350251445,"y":1267},{"x":1352881185,"y":1275},{"x":1355510925,"y":1270},{"x":1358140665,"y":1279},{"x":1360770405,"y":1279},{"x":1363400145,"y":1290},{"x":1366029885,"y":1286},{"x":1368659625,"y":1292},{"x":1371289365,"y":1299}],"id":"convergence","updatedAt":1373920124}
+
+
+'
