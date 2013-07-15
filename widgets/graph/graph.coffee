@@ -16,10 +16,12 @@ class Dashing.Graph extends Dashing.Widget
       width: width
       height: height
       renderer: "line"
+      min: 1230
+      max: 1330
       series: [
         {
         color: "#fff",
-        data: [{x:0, y:0}]
+        data: [{x:0, y:1250}]
         }
       ]
     )
@@ -27,7 +29,7 @@ class Dashing.Graph extends Dashing.Widget
     @graph.series[0].data = @get('points') if @get('points')
 
     x_axis = new Rickshaw.Graph.Axis.Time(graph: @graph)
-    y_axis = new Rickshaw.Graph.Axis.Y(graph: @graph, tickFormat: Rickshaw.Fixtures.Number.formatKMBT)
+    y_axis = new Rickshaw.Graph.Axis.Y(graph: @graph, min: 1230, max: 1300, tickFormat: Rickshaw.Fixtures.Number.formatKMBT)
     @graph.render()
 
   onData: (data) ->

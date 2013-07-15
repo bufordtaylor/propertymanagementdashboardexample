@@ -20,5 +20,5 @@ class Dashing.Comments extends Dashing.Widget
     if comments
       @commentElem.fadeOut =>
         @currentIndex = (@currentIndex + 1) % comments.length
-        @set 'current_comment', comments[@currentIndex]
+        @set 'current_comment', "£" + comments[@currentIndex]
         @commentElem.fadeIn()
