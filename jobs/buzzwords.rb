@@ -4,10 +4,9 @@
 buzzwords = ['Management Fees', 'Inventory', 'Council Tax', 'EPC', 'Cleaning', 'Repairs', 'Keys']
 buzzword_counts = Hash.new({ value: 0 })
 
-buzzword_counts["Management Fees"] = { label: "Management Fees", value: "£100" }
-buzzword_counts["Council Tax"] = { label: "Council Tax", value: "£120" }
-buzzword_counts["EPC"] = { label: "EPC", value: "£80" }
-buzzword_counts["Cleaning"] = { label: "Cleaning", value: "£70" }
+buzzword_counts["Management Fees"] = { label: "Management Fees", value: "£65" }
+buzzword_counts["Repairs"] = { label: "Repairs", value: "£225" }
+buzzword_counts["Dishwasher"] = { label: "Dishwasher", value: "£194" }
 
 SCHEDULER.every '2s' do
   random_buzzword = buzzwords.sample

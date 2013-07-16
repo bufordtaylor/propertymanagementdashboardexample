@@ -10,7 +10,7 @@ SCHEDULER.every '2s' do
   send_event('valuation', { current: current_valuation, last: last_valuation })
   send_event('karma', { current: current_karma, last: last_karma })
   send_event('synergy',   { value: rand(100) })
-  send_event('gross_yield',   { current: 5, last: 4.8 })
-  send_event('net_yield',   { current: 4.6, last: 4.5 })
+  send_event('gross_yield',   { current: 4.1, last: 4.8 })
+  send_event('net_yield',   { current: 3.82, last: 4.5 })
   send_event('rental_due',   { current: rand(100), last: rand(100) })
 end

@@ -5,15 +5,8 @@ class Dashing.Number extends Dashing.Widget
     if @get('last')
       last = parseFloat(@get('last'))
       current = parseFloat(@get('current'))
-      if last != 0
-        diff = parseFloat((current - last) / last * 100).toFixed(2)
-        "#{diff}%"
     else
       ""
-
-  @accessor 'arrow', ->
-    if @get('last')
-      if parseInt(@get('current')) > parseInt(@get('last')) then 'icon-arrow-up' else 'icon-arrow-down'
 
   onData: (data) ->
     if data.status
